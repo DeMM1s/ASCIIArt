@@ -25,7 +25,7 @@ namespace ASCIIArt
 				result[y] = new char[bitmap.Width];
 				for (int x = 0; x < bitmap.Width; x++)
 				{
-					char asciiPixel = bitmap.GetPixel(x, y).R == 0 ? '@' : ' ';
+					char asciiPixel = bitmap.GetPixel(x, y).R == 255 ? '@' : ' ';
 					result[y][x] = asciiPixel;
 				}
 			}
@@ -48,7 +48,7 @@ namespace ASCIIArt
 		}
 		private static float Map(float valueToMap, float start1, float stop1, float start2, float stop2)
 		{
-			return ((valueToMap - start1) / (stop1 - start1)) * (stop2 - start2) + start2;
+			return (valueToMap - start1) / (stop1 - start1) * (stop2 - start2) + start2;
 		}
 	}
 }

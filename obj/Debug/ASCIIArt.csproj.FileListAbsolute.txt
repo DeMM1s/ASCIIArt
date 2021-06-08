@@ -21,3 +21,9 @@ E:\ProjectsC#\ASCIIArt\ASCIIArt\bin\Debug\Accord.xml
 E:\ProjectsC#\ASCIIArt\ASCIIArt\bin\Debug\Accord.Video.xml
 E:\ProjectsC#\ASCIIArt\ASCIIArt\bin\Debug\Accord.Video.FFMPEG.xml
 E:\ProjectsC#\ASCIIArt\ASCIIArt\obj\Debug\ASCIIArt.csproj.CopyComplete
+E:\ProjectsC#\ASCIIArt\ASCIIArt\bin\Debug\Accord.Audio.dll
+E:\ProjectsC#\ASCIIArt\ASCIIArt\bin\Debug\Accord.Math.Core.dll
+E:\ProjectsC#\ASCIIArt\ASCIIArt\bin\Debug\Accord.Math.dll
+E:\ProjectsC#\ASCIIArt\ASCIIArt\bin\Debug\Accord.Audio.xml
+E:\ProjectsC#\ASCIIArt\ASCIIArt\bin\Debug\Accord.Math.xml
+E:\ProjectsC#\ASCIIArt\ASCIIArt\bin\Debug\Accord.Math.Core.xml
