@@ -10,11 +10,10 @@ namespace ASCIIArt
 		static void Main()
 		{
 			bool work = true;
-			VideoConvert video = new VideoConvert();
+			VideoPlayer video = new VideoPlayer();
 			Console.WriteLine("С чем будем работать?");
 			Console.WriteLine("1. Изображение");
-			Console.WriteLine("2. Видео с предварительной загрузкой, возможен небольшой рассинхрон звука и видео(в процессе доработки)");
-			Console.WriteLine("3. Видео без предварительной загрузки, включается сразу, но возможны проблемы(в процессе тестирования и доработки)");
+			Console.WriteLine("2. Видео");
 			Console.WriteLine("q. Выход");
 			while (work)
 			{
@@ -29,14 +28,7 @@ namespace ASCIIArt
 						Console.WriteLine("Уменьшите размер шрифта(желательно от 6 до 10)");
 						Console.WriteLine("Для запуска нажмите любую клавишу");
 						Console.ReadKey();
-						video.StartWithLoading();
-						break;
-					case "3":
-						Console.WriteLine("Сейчас будет проигрываться видео в консоли в ASCII формате");
-						Console.WriteLine("Уменьшите размер шрифта(желательно от 6 до 10)");
-						Console.WriteLine("Для запуска нажмите любую клавишу");
-						Console.ReadKey();
-						video.StartWithoutLoading();
+						video.Start();
 						break;
 					case "q":
 						work = false;
